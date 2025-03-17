@@ -21,6 +21,7 @@ int main()
 	std::cout << "Address of the string: " << &str << std::endl;
 	std::cout << "Address of the string by pointer: " << stringPTR << std::endl;
 	std::cout << "Address of the string by reference: " << &stringREF << std::endl;
+
 	std::cout << "String inside of str: " << str << std::endl;
 	std::cout << "String inside of stringPTR: " << *stringPTR << std::endl;
 	std::cout << "String inside of stringREF: " << stringREF << std::endl;
